@@ -39,7 +39,7 @@ def time(func):
         time_elapsed = final_time - initial_time
         minutes = time_elapsed.total_seconds() / 60
         minutes_format = "{:.2f}".format(minutes)
-        print(f'\n~ Duración del Juego: {minutes_format} minutos ~')
+        print(f'\n~ Game length: {minutes_format} minutes ~')
     return wrapper
     
 @time
